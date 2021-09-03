@@ -1,8 +1,10 @@
 # Communication between Containers
 
-This tutorial is assuming you have gone through the previous [Introduction to Development using Containers](https://github.com/dlops-io/intro_to_containers). As a refreshed the architecture we followed was:
+This tutorial assumes you have gone through the previous [Introduction to Development using Containers](https://github.com/dlops-io/intro_to_containers) tutorial. As a refresher the architecture we followed was:
 
 ![Docker with Persistent Store](https://storage.googleapis.com/public_colab_images/docker/docker_with_persistent_storage.png)
+
+We will quickly go over the prerequisites and the base containers that need to be setup and running before we get into the details on how to get Docker containers communicate with each other.
 
 ## Prerequisites
 * Have Docker installed
